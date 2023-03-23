@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #3a3535;
+    color: #ffffff;
+}
+header {
+    background-color: #990a0a;
+    color: #f1f50b;
+    padding-left: 3em;
+    text-align: center;
+    height: 120px;
+    padding-top: 30px;
+}
+header a:link { text-decoration: none; color: #f1f50b; }
+header a:visited { color: #fbff05; }
+header a:hover { color: #e99700; }
+
+nav {
+    font-weight: bold;
+    float:left;
+    width:160px;
+    font-size: 120%;
+    padding: 1.5em;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:link { color: #990a0a; } 
+nav a:visited { color: #440000; }
+nav a:hover { color: #ff0000; }
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+dt {
+    color: #eeff00;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #fbff05;
+}
+h2{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #fbff05;
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #eb0808;
+}
+section{
+    float:left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+main{
+    background-color: #333333;
+    margin-left: 190px;
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    overflow:auto;
+    display: block;
+}
+#wrapper{
+    background-color: #3a3535;
+    background-image: linear-gradient(to bottom, #b4b4b4, #5c5c5c);
+    background-repeat: no-repeat;
+    border-style: solid; border-color: #000003; border-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px #333333;  
+}
+
+* { box-sizing: border-box; }
+footer{
+    text-align: center;
+    font-style: italic;
+    font-size: .75em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2em;
+    margin-left: 190px;
+    background-color: #333333;
+}
+#contact {
+    font-size: .90em;
+}
+
+#construct {
+    float:left;
+}
+#freeski{
+    float:right;
+}
+#parkski{
+    float:right;
+}
+#handmake{
+    float:right;
+}
+table{
+    border: 2px solid #a70b0b;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 0.5em;
+    border: 2px solid #a70b0b;
+    text-align:center;
+}
+th{
+    padding: 0.5em;
+    border: 2px solid #a70b0b;
+}
+
+.text{
+    text-align: left;
+}
+tr:nth-of-type(odd){
+    background-color: #f1a9a9;
+} 
+#special{
+    clear: both; 
+}
+label{
+    float:left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+input{
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="submit"] 
+{
+    margin-left: 140px;
+}
+textarea{
+    display: block;
+    margin-bottom: 20px;
+}
